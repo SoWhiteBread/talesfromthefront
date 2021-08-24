@@ -99,18 +99,18 @@ function pictureChange(event) {
   let id = event.target.id;
   switch(id) {
      case "gang-list-cawdor":
-        $(".gangpicture").attr("src", "/imgs/cawdor.png");
+        $(".gangpicture").attr("src", "talesfromthefront/imgs/cawdor.png");
         break;
       case "gang-list-delaque":
-        $(".gangpicture").attr("src", "/imgs/delaque.png");
+        $(".gangpicture").attr("src", "talesfromthefront/imgs/delaque.png");
         break;
       case "gang-list-escher":
-        $(".gangpicture").attr("src", "/imgs/escher.png");
+        $(".gangpicture").attr("src", "talesfromthefront/imgs/escher.png");
         break;
       case "gang-list-goliath":
-        $(".gangpicture").attr("src", "/imgs/goliath.png");
+        $(".gangpicture").attr("src", "talesfromthefront/imgs/goliath.png");
         break;
       case "gang-list-vansaar":
-        $(".gangpicture").attr("src", "/imgs/vansaar.png");
+        $(".gangpicture").attr("src", "talesfromthefront/imgs/vansaar.png");
         break;
 }};
