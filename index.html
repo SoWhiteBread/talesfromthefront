@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf=8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/ff625b4c7a.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<title>Tales from the Front - Homepage</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient">
+    <div class="container-fluid">
+      <a class="navbar-brand">Tales from the Front</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Gang Lists
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="https://yaktribe.games/underhive/gang/the_emperor%27s_spears.171103/">Cawdor Gang</a></li>
+              <li><a class="dropdown-item" href="https://yaktribe.games/underhive/gang/the_menacing_shadow.152285/">Delaque Gang</a></li>
+              <li><a class="dropdown-item" href="https://yaktribe.games/underhive/gang/the_synthlash_eclipse.151439/">Escher Gang</a></li>
+              <li><a class="dropdown-item" href="https://yaktribe.games/underhive/gang/the_ironjaw_maulers.152289/">Goliath Gang</a></li>
+              <li><a class="dropdown-item" href="https://yaktribe.games/underhive/gang/omicron_cabal.152292/">Van Saar Gang</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="navbar" role="button">
+              Battle Reports
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container pt-3">
+    <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+      <div class="row">
+        <div class="col-md-12 px-0">
+          <h1 class="display-4 fst-italic text-center">The Devastation of Beladon's Rest</h1>
+          <p class="lead my-3 text-center">A Necromunda Underhive narrative campaign</p>
+        </div>
+      </div>
+    </div>
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-2">The Setting</h3>
+            <p class="mb-auto">A long forgotten underhive dome built to surround a colossal tomb complex, Beladon's Rest is a
+              sprawling labyrinth of rusted and decaying pre-fabricated shelters, derelict manufactories, and ancient cyclopean machinery.
+              Recently rediscovered by enterprising Domerunners, Beladon's Rest is newly lit by muzzles flares and lasfire as the gangs of the 
+              Underhive seek to carve out new territory from the ruins.
+            </p>
+            <p></p>
+            <p class="mb-auto">As battle rages throughout the reclaimed hab-blocks and around industrial monoliths, rumours spread that Beladon's Rest may
+              not be as abandoned as it seems
+              
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-2">The Campaign</h3>
+            <p class="mb-auto">The Devastation of Beladon's Rest is based around a Dominion campaign for Necromunda Underhive with a focus on narrative and role-playing. 
+            </p>
+            <p></p>
+            <p class="mb-auto">The players take control of the gangs and attempt to gain as much territory, fame, and glory as they can, while the Arbitrator acts
+              as a Gamesmaster, taking control of the campaign antagonists, keeping the narrative flowing, and ensuring a relatively balanced experience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mb-2 justify-content-center">
+      <div class="col-auto">
+        <h2>The Gangs</h2>
+      </div>
+    </div>
+    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="row">
+        <div class="col-4">
+          <div class="list-group list-group-flush d-flex" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active" id="gang-list-cawdor" data-bs-toggle="list" href="#list-cawdor" role="tab" aria-controls="list-cawdor cawdor-picture">The Emperor's Spears</a>
+            <a class="list-group-item list-group-item-action" id="gang-list-delaque" data-bs-toggle="list" href="#list-delaque" role="tab" aria-controls="list-delaque delaque-picture">The Menacing Shadow</a>
+            <a class="list-group-item list-group-item-action" id="gang-list-escher" data-bs-toggle="list" href="#list-escher" role="tab" aria-controls="list-escher">The Synthlash Eclipse</a>
+            <a class="list-group-item list-group-item-action" id="gang-list-goliath" data-bs-toggle="list" href="#list-goliath" role="tab" aria-controls="list-goliath">The Ironjaw Maulers</a>
+            <a class="list-group-item list-group-item-action" id="gang-list-vansaar" data-bs-toggle="list" href="#list-vansaar" role="tab" aria-controls="list-vansaar">Omicron Cabal</a>
+          </div>    
+          <div class="tab-content d-none d-lg-block" id="gangPictures">
+            <div class="text-center mt-2">
+              <img class="img-fluid gangpicture tab-pane fade show active" id="gang-picture" role="tabpanel" aria-labelledby="gang-list-cawdor" style="width:300px;height:300px;" src="/imgs/cawdor.png">
+            </div>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-cawdor" role="tabpanel" aria-labelledby="gang-list-cawdor">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item pb-0">
+                  <h5 class="ms-2 me-auto text-center">Cawdor Gang</h5>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Leader</div>
+                    Gang Leader armed with Reclaimed Autopistol and Polearm/Blunderbuss
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Champ</div>
+                    Gang Champion armed with Heavy Crossbow
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger1</div>
+                    Ganger armed with Polearm/Blunderbuss
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger2</div>
+                    Ganger armed with Polearm/Blunderbuss
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger3</div>
+                    Ganger armed with Polearm/Autogun
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger4</div>
+                    Ganger armed with two Reclaimed Autopistols
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger5</div>
+                    Ganger armed with Reclaimed Autogun
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger6</div>
+                    Ganger armed with Flail and Reclaimed Autopistol
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger7</div>
+                    Ganger armed with Reclaimed Autogun
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger8</div>
+                    Ganger armed with Axe and Reclaimed Autopistol
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="list-delaque" role="tabpanel" aria-labelledby="gang-list-delaque">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <h5 class="ms-2 me-auto text-center">Delaque Gang</h5>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Leader</div>
+                    Gang Leader armed with Grav-Gun and Web-Gauntlet
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Champ1</div>
+                    Gang Champion armed with Longrifle
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Champ2</div>
+                    Gang Champion armed with two Flechette Pistols
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger1</div>
+                    Ganger armed with Shotgun
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger2</div>
+                    Ganger armed with Autogun and Smoke Grenade
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger3</div>
+                    Ganger armed with Autogun and Smoke Grenade
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger4</div>
+                    Ganger armed with two Autopistols and Photon Flash Grenade
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger5</div>
+                    Ganger armed with two Autopistols and Stun Grenade
+                  </div>
+                </li>
+              </ul> 
+            </div>
+            <div class="tab-pane fade" id="list-escher" role="tabpanel" aria-labelledby="gang-list-escher">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <h5 class="ms-2 me-auto text-center">Escher Gang</h5>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Leader</div>
+                    Gang Leader armed with Shock-Whip and Combi-Weapon (Boltgun/Needler)
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Champ1</div>
+                    Gang Champion armed with Stiletto Knife and Plasma Pistol
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Champ2</div>
+                    Gang Champion armed with Laspistol and Plasma Pistol
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Specialist</div>
+                    Gang Specialist armed with Stub Gun and Nightshade Chem Thrower
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger1</div>
+                    Ganger armed with Lasgun
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger2</div>
+                    Ganger armed with Lasgun
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger3</div>
+                    Ganger armed with Lasgun
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger4</div>
+                    Ganger armed with Lasgun
+                  </div>
+                </li>
+              </ul>  
+            </div>
+            <div class="tab-pane fade" id="list-goliath" role="tabpanel" aria-labelledby="gang-list-goliath">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <h5 class="ms-2 me-auto text-center">Goliath Gang</h5>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Leader</div>
+                    Gang Leader armed with Power Hammer and Combi-Pistol (Stub Gun/Plasma Pistol)
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Champ1</div>
+                    Gang Champion armed with Grenade Launcher and Smoke Grenade
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Champ2</div>
+                    Gang Champion armed with Renderizer Axe
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger1</div>
+                    Ganger armed with Combat Shotgun
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger2</div>
+                    Ganger armed with Combat Shotgun
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger3</div>
+                    Ganger armed with Axe and Brute Cleaver
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger4</div>
+                    Ganger armed with Maul and Stub Gun
+                  </div>
+                </li>
+              </ul> 
+            </div>
+            <div class="tab-pane fade" id="list-vansaar" role="tabpanel" aria-labelledby="gang-list-vansaar">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <h5 class="ms-2 me-auto text-center">Van Saar Gang</h5>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Leader</div>
+                    Gang Leader armed with Plasma Gun and Hystrar Pattern Energy Shield
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Champ1</div>
+                    Gang Champion armed with Rad Gun
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Champ2</div>
+                    Gang Champion armed with two Plasma Pistols
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger1</div>
+                    Ganger armed with Lasgun
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger2</div>
+                    Ganger armed with Lasgun
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger3</div>
+                    Ganger armed with Lasgun
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Ganger4</div>
+                    Ganger armed with Lasgun
+                  </div>
+                </li>
+              </ul> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mb-2 justify-content-center">
+      <div class="col-auto">
+        <h2>The Map</h2>
+      </div>
+    </div>
+    <div class="row mb-2 justify-content-center">
+      <div class="col-auto">
+        <svg width="400" height="450" xmlns="http://www.w3.org/2000/svg">
+          <g transform="scale(5.5)">
+           <title>Beladon's Rest</title>
+            <g>
+            <g stroke="#CCCCCC" stroke-width="0.118" fill="#CCCCCC">
+             <g stroke="#3D3D3D" stroke-linejoin="round" stroke-width="0.118" fill="#3D3D3D">
+              <polygon stroke="null" points="47.5419921875,23.7867431640625 45.3489990234375,34.121742248535156 37.25299835205078,32.40373992919922 37.25299835205078,31.603740692138672 45.3489990234375,33.321739196777344 47.5419921875,22.98674201965332 "/>
+             </g>
+             <polygon class="building" stroke="null" id="beladonTomb" points="47.5419921875,22.98674201965332 45.3489990234375,33.321739196777344 37.25299835205078,31.603740692138672 39.44499588012695,21.26874351501465 "/>
+            </g>
+            <g stroke="#CCCCCC" stroke-width="0.118" fill="#CCCCCC">
+             <g stroke="#3D3D3D" stroke-linejoin="round" stroke-width="0.118" fill="#3D3D3D">
+              <polygon stroke="null" points="51.125999450683594,34.639739990234375 46.81199645996094,36.8597412109375 46.81199645996094,36.459739685058594 51.125999450683594,34.239742279052734 "/>
+              <polygon stroke="null" points="55.95299530029297,32.75474166870117 51.125999450683594,34.639739990234375 51.125999450683594,34.239742279052734 55.95299530029297,32.35474395751953 "/>
+              <polygon stroke="null" points="61.537994384765625,45.18973922729492 59.907997131347656,46.88274002075195 45.88899230957031,41.21274185180664 45.88899230957031,40.812740325927734 59.907997131347656,46.48273849487305 61.537994384765625,44.78974151611328 "/>
+             </g>
+             <polygon class="building" stroke="null" id="building3" points="51.125999450683594,34.239742279052734 46.81199645996094,36.459739685058594 49.343994140625,24.52874183654785 54.365989685058594,28.821739196777344 55.95299530029297,32.35474395751953 "/>
+             <polygon class="building" stroke="null" id="building4" points="51.45599365234375,34.96974182128906 56.28099822998047,33.084739685058594 61.537994384765625,44.78974151611328 59.907997131347656,46.48273849487305 45.88899230957031,40.812740325927734 46.597991943359375,37.46974182128906 "/>
+            </g>
+            <g stroke="#CCCCCC" stroke-width="0.118" fill="#CCCCCC">
+             <g stroke="#3D3D3D" stroke-linejoin="round" stroke-width="0.118" fill="#3D3D3D">
+              <polygon stroke="null" points="43.88799285888672,40.250919342041016 40.442996978759766,43.37091827392578 29.598995208740234,35.72991943359375 29.598995208740234,35.32992172241211 40.442996978759766,42.97092056274414 43.88799285888672,39.85091781616211 "/>
+              <polygon stroke="null" points="28.26599884033203,43.548919677734375 24.778995513916016,38.392921447753906 24.778995513916016,37.992919921875 28.26599884033203,43.148921966552734 "/>
+              <polygon stroke="null" points="32.089996337890625,38.46392059326172 28.26599884033203,43.548919677734375 28.26599884033203,43.148921966552734 32.089996337890625,38.06391906738281 "/>
+              <polygon stroke="null" points="39.834999084472656,43.920921325683594 35.89099884033203,47.492919921875 30.768997192382812,47.04191970825195 29.657997131347656,45.60791778564453 28.738998413085938,44.24991989135742 28.738998413085938,43.849918365478516 29.657997131347656,45.20792007446289 30.768997192382812,46.64192199707031 35.89099884033203,47.092918395996094 39.834999084472656,43.52091979980469 "/>
+              <polygon stroke="null" points="35.7339973449707,31.426918029785156 27.89999771118164,35.754920959472656 27.46999740600586,25.934921264648438 27.46999740600586,25.534921646118164 27.89999771118164,35.35491943359375 35.7339973449707,31.026920318603516 "/>
+              <polygon stroke="null" points="27.117996215820312,36.186920166015625 24.328998565673828,37.72692108154297 19.365997314453125,30.386917114257812 19.365997314453125,29.986919403076172 24.328998565673828,37.32691955566406 27.117996215820312,35.78691864013672 "/>
+             </g>
+             <polygon class="building" stroke="null" id="building9" points="29.598995208740234,35.32992172241211 36.29399871826172,31.631919860839844 43.88799285888672,39.85091781616211 40.442996978759766,42.97092056274414 "/>
+             <polygon class="building" stroke="null" id="building10" points="28.26599884033203,43.148921966552734 24.778995513916016,37.992919921875 28.820995330810547,35.759918212890625 32.089996337890625,38.06391906738281 "/>
+             <polygon class="building" stroke="null" id="building11" points="32.74399948120117,38.52492141723633 39.834999084472656,43.52091979980469 35.89099884033203,47.092918395996094 30.768997192382812,46.64192199707031 29.657997131347656,45.20792007446289 28.738998413085938,43.849918365478516 "/>
+             <polygon class="building" stroke="null" id="building12" points="27.46999740600586,25.534921646118164 30.118999481201172,24.949922561645508 35.7339973449707,31.026920318603516 27.89999771118164,35.35491943359375 "/>
+             <polygon class="building" stroke="null" id="building13" points="27.117996215820312,35.78691864013672 24.328998565673828,37.32691955566406 19.365997314453125,29.986919403076172 20.651996612548828,27.042919158935547 26.676998138427734,25.710922241210938 "/>
+            </g>
+            <g stroke="#CCCCCC" stroke-width="0.118" fill="#CCCCCC">
+             <g stroke="#3D3D3D" stroke-linejoin="round" stroke-width="0.118" fill="#3D3D3D">
+              <polygon stroke="null" points="39.468997955322266,19.90074348449707 29.487995147705078,23.95374298095703 19.758995056152344,26.1047420501709 19.508995056152344,25.70374298095703 19.508995056152344,25.303743362426758 19.758995056152344,25.704742431640625 29.487995147705078,23.553743362426758 39.468997955322266,19.500741958618164 "/>
+             </g>
+             <polygon class="building" stroke="null" id="building8" points="36.314998626708984,10.385744094848633 39.468997955322266,19.500741958618164 29.487995147705078,23.553743362426758 19.758995056152344,25.704742431640625 19.508995056152344,25.303743362426758 21.066001892089844,23.35674285888672 30.236995697021484,14.239742279052734 35.43799591064453,10.129745483398438 "/>
+            </g>
+            <g stroke="#CCCCCC" stroke-width="0.118" fill="#CCCCCC">
+             <g stroke="#3D3D3D" stroke-linejoin="round" stroke-width="0.118" fill="#3D3D3D">
+              <polygon stroke="null" points="61.25099182128906,21.739744186401367 61.07099151611328,23.524742126464844 55.68199157714844,27.715740203857422 49.19599151611328,22.17074203491211 41.042999267578125,19.901742935180664 41.042999267578125,19.50174331665039 49.19599151611328,21.770742416381836 55.68199157714844,27.31574249267578 61.07099151611328,23.12474250793457 61.25099182128906,21.33974266052246 "/>
+              <polygon stroke="null" points="44.16499328613281,15.615741729736328 40.21299743652344,19.601743698120117 37.05799865722656,10.487744331359863 37.05799865722656,10.087745666503906 40.21299743652344,19.20174217224121 44.16499328613281,15.215742111206055 "/>
+              <polygon stroke="null" points="45.21299743652344,10.294744491577148 44.16499328613281,15.615741729736328 44.16499328613281,15.215742111206055 45.21299743652344,9.894744873046875 "/>
+             </g>
+             <polygon class="building" stroke="null" id="building6" points="44.902992248535156,15.607743263244629 46.019996643066406,9.938745498657227 50.211997985839844,10.167745590209961 52.72199249267578,11.405742645263672 61.25099182128906,21.33974266052246 61.07099151611328,23.12474250793457 55.68199157714844,27.31574249267578 49.19599151611328,21.770742416381836 41.042999267578125,19.50174331665039 "/>
+             <polygon class="building" stroke="null" id="building7" points="44.16499328613281,15.215742111206055 40.21299743652344,19.20174217224121 37.05799865722656,10.087745666503906 37.52099609375,9.473745346069336 45.21299743652344,9.894744873046875 "/>
+            </g>
+            <g stroke="#CCCCCC" stroke-width="0.118" fill="#CCCCCC">
+             <g stroke="#3D3D3D" stroke-linejoin="round" stroke-width="0.118" fill="#3D3D3D">
+              <polygon stroke="null" points="61.80799102783203,40.90974044799805 56.167991638183594,28.35173797607422 56.167991638183594,27.951740264892578 61.80799102783203,40.50973892211914 "/>
+             </g>
+             <polygon class="building" stroke="null" id="building5" points="61.80799102783203,40.50973892211914 56.167991638183594,27.951740264892578 61.42399597167969,23.86374282836914 "/>
+            </g>
+            <g stroke="#CCCCCC" stroke-width="0.118" fill="#CCCCCC">
+             <g stroke="#3D3D3D" stroke-linejoin="round" stroke-width="0.118" fill="#3D3D3D">
+              <polygon stroke="null" points="49.016998291015625,59.108741760253906 46.042991638183594,60.99574279785156 26.00299835205078,69.72174835205078 26.00299835205078,69.32174682617188 46.042991638183594,60.595741271972656 49.016998291015625,58.708740234375 "/>
+              <polygon stroke="null" points="59.822998046875,50.8237419128418 53.93499755859375,55.98874282836914 50.01899719238281,58.47374725341797 35.810997009277344,55.9687385559082 35.810997009277344,55.56874084472656 50.01899719238281,58.0737419128418 53.93499755859375,55.588741302490234 59.822998046875,50.42374038696289 "/>
+             </g>
+             <polygon class="building" stroke="null" id="building1" points="49.016998291015625,58.708740234375 46.042991638183594,60.595741271972656 26.00299835205078,69.32174682617188 26.916996002197266,67.43574523925781 35.27299880981445,56.2867431640625 "/>
+             <polygon class="building" stroke="null" id="building2" points="35.810997009277344,55.56874084472656 46.14599609375,41.77974319458008 59.256996154785156,47.08174133300781 59.822998046875,50.42374038696289 53.93499755859375,55.588741302490234 50.01899719238281,58.0737419128418 "/>
+            </g>
+            <g stroke="#CCCCCC" stroke-width="0.236" fill="#CCCCCC">
+             <g stroke="#3D3D3D" stroke-linejoin="round" stroke-width="0.236" fill="#3D3D3D">
+              <polygon stroke="null" points="14.525999069213867,61.78474426269531 13.154998779296875,58.483741760253906 11.680999755859375,54.932743072509766 9.982002258300781,50.838741302490234 8.5780029296875,47.45674133300781 8.5780029296875,46.656742095947266 9.982002258300781,50.03873825073242 11.680999755859375,54.13274002075195 13.154998779296875,57.68374252319336 14.525999069213867,60.9847412109375 "/>
+              <polygon stroke="null" points="23.005996704101562,50.23173904418945 19.003000259399414,51.893741607666016 19.003000259399414,51.0937385559082 23.005996704101562,49.43174362182617 "/>
+              <polygon stroke="null" points="20.47699737548828,55.444740295410156 16.864002227783203,56.944740295410156 16.864002227783203,56.14474105834961 20.47699737548828,54.64474105834961 "/>
+              <polygon stroke="null" points="18.233999252319336,60.24574279785156 14.525999069213867,61.78474426269531 14.525999069213867,60.9847412109375 18.233999252319336,59.44574737548828 "/>
+             </g>
+             <polygon class="building" stroke="null" id="fortress" points="14.525999069213867,60.9847412109375 13.154998779296875,57.68374252319336 11.680999755859375,54.13274002075195 9.982002258300781,50.03873825073242 8.5780029296875,46.656742095947266 12.286001205444336,45.117740631103516 15.899999618530273,43.617740631103516 19.902997970581055,41.95574188232422 21.306997299194336,45.33774185180664 23.005996704101562,49.43174362182617 19.003000259399414,51.0937385559082 20.47699737548828,54.64474105834961 16.864002227783203,56.14474105834961 18.233999252319336,59.44574737548828 "/>
+            </g>
+            <g stroke="null"> 
+             <polyline stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" fill="none" points="23.888999938964844,17.425743103027344 35.782997131347656,8.025745391845703 52.572998046875,8.944744110107422 63.74199676513672,21.954742431640625 64.23499298095703,37.72774124145508 64.36199188232422,46.23274230957031 "/>
+             <polyline stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" fill="none" points="62.224998474121094,51.044742584228516 51.32799530029297,60.60374450683594 22.363998413085938,73.2137451171875 "/>
+             <polyline stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" fill="none" points="32.39899826049805,52.51673889160156 "/>
+             <polyline stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" fill="none" points="21.128002166748047,37.967742919921875 16.81499481201172,30.606739044189453 "/>
+             <polyline stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" fill="none" points="17.160999298095703,25.838743209838867 23.888999938964844,17.425743103027344 "/>
+             <g stroke="#000000" stroke-width="3.8">
+              <line stroke="null" y2="48.13275" x2="64.39" y1="44.65975" x1="65.932"/>
+              <line stroke="null" y2="53.26475" x2="62.111" y1="49.79175" x1="63.653"/>
+             </g>
+             <g stroke="#000000" stroke-width="3.8">
+              <line stroke="null" y2="28.96675" x2="15.855" y1="32.75675" x1="15.58"/>
+              <line stroke="null" y2="23.53275" x2="16.249" y1="27.32275" x1="15.974"/>
+             </g>
+             <polygon stroke="null" fill="#000000" points="23.547996520996094,19.368741989135742 21.274002075195312,17.081743240356445 23.560997009277344,14.80874252319336 25.833995819091797,17.094741821289062 "/>
+             <polygon stroke="null" fill="#000000" points="34.589996337890625,9.59774398803711 33.615997314453125,6.523744106292725 36.68899917602539,5.548743724822998 37.663997650146484,8.622745513916016 "/>
+             <polygon stroke="null" fill="#000000" points="50.623992919921875,9.251744270324707 52.04899597167969,6.359744548797607 54.94099426269531,7.785745143890381 53.5159912109375,10.677742958068848 "/>
+             <polygon stroke="null" fill="#000000" points="62.097991943359375,20.86374282836914 65.10399627685547,19.695743560791016 66.27099609375,22.701744079589844 63.264991760253906,23.868741989135742 "/>
+             <polygon stroke="null" fill="#000000" points="63.060997009277344,36.14173889160156 66.28499603271484,36.06774139404297 66.35899353027344,39.290740966796875 63.13599395751953,39.36574172973633 "/>
+             <polygon stroke="null" fill="#000000" points="52.079994201660156,58.779747009277344 53.80799102783203,61.501739501953125 51.084991455078125,63.22974395751953 49.357994079589844,60.506744384765625 "/>
+            </g>
+            <g stroke="null"> 
+             <polyline stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" fill="none" points="21.128002166748047,37.967742919921875 30.622997283935547,50.2247428894043 "/>
+             <polyline stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" fill="none" points="31.13399887084961,55.12674331665039 22.363998413085938,73.2137451171875 12.488998413085938,67.05074310302734 3.4860000610351562,45.36174011230469 21.128002166748047,37.967742919921875 "/>
+             <g stroke="#000000" stroke-width="3.8">
+              <line stroke="null" y2="51.72675" x2="31.787" y1="47.94675" x1="31.393"/>
+              <line stroke="null" y2="57.19675" x2="32.357" y1="53.41675" x1="31.963"/>
+             </g>
+             <polygon stroke="null" fill="#000000" points="18.73299789428711,38.729740142822266 19.81299591064453,34.626739501953125 23.915996551513672,35.70674133300781 22.835994720458984,39.80974197387695 "/>
+             <polygon stroke="null" fill="#000000" points="24.028995513916016,71.33274841308594 25.204998016357422,75.40974426269531 21.128002166748047,76.58474731445312 19.9529972076416,72.50774383544922 "/>
+             <polygon stroke="null" fill="#000000" points="14.886999130249023,67.79874420166016 11.6510009765625,70.541748046875 8.908002853393555,67.30574798583984 12.144002914428711,64.562744140625 "/>
+             <polygon stroke="null" fill="#000000" points="3.923999786376953,47.83573913574219 0,46.22174072265625 1.6140022277832031,42.29874038696289 5.538002014160156,43.91273880004883 "/>
+            </g>
+           </g>
+          </g>
+         </svg>
+      </div>
+    </div>
+  </div>
+
+<style>
+ .building:focus {
+    outline: none;
+  }
+  #cog-picture {
+    z-index: 100;
+  }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
